@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .container {
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 20px;
+  }
+  
+  .response {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f0f0f0;
+  }
+  
+  button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .speech-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .speech-button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    margin-top: 10px;
+    resize: none;
+  }
+
+  .spoken-text {
+    background-color: #e0e0e0;
+    padding: 3px;
+    border-radius: 3px;
+  }
